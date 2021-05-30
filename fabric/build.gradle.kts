@@ -23,11 +23,6 @@ dependencies {
   include(libs.adventurePlatformFabric)
   implementation(libs.minimessage)
   include(libs.minimessage)
-
-  implementation(libs.slf4jApi)
-  include(libs.slf4jApi)
-  implementation(libs.log4jSlf4jImpl)
-  include(libs.log4jSlf4jImpl)
 }
 
 miniMOTDPlatform {
@@ -35,6 +30,9 @@ miniMOTDPlatform {
 }
 
 tasks {
+  runServer {
+    standardInput = System.`in`
+  }
   shadowJar {
     configurations = listOf(shade)
     commonConfiguration()

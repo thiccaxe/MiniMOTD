@@ -29,6 +29,12 @@ miniMOTDPlatform {
   jarTask.set(tasks.remapJar)
 }
 
+indra {
+  javaVersions {
+    target(16)
+  }
+}
+
 tasks {
   runServer {
     standardInput = System.`in`

@@ -29,7 +29,7 @@ versions:
   waterfallApi: 1.16-R0.4-SNAPSHOT
   fabricApi: 0.34.8+1.17
   fabricLoader: 0.11.1
-  fabricMinecraft: 1.17-pre1
+  fabricMinecraft: 1.17-rc1
   spongeApi7: 7.2.0
   velocityApi: 1.1.4
   jupiterEngine: 5.7.0

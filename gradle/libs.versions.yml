@@ -31,6 +31,7 @@ versions:
   fabricMinecraft: 1.16.5
   spongeApi7: 7.2.0
   velocityApi: 1.1.4
+  minestomApi: 5d8ed5041f
   jupiterEngine: 5.7.0
 
 dependencies:
@@ -149,6 +150,11 @@ dependencies:
     group: com.velocitypowered
     name: velocity-api
     version: { ref: velocityApi }
+
+  minestomApi:
+    group: com.github.minestom
+    name: minestom
+    version: { ref: minestomApi }
 
   jupiterEngine:
     group: org.junit.jupiter

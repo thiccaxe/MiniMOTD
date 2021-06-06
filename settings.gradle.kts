@@ -9,6 +9,7 @@ dependencyResolutionManagement {
     maven("https://papermc.io/repo/repository/maven-public/")
     maven("https://nexus.velocitypowered.com/repository/maven-public/")
     maven("https://repo.spongepowered.org/repository/maven-public/")
+    maven("https://jitpack.io/")
   }
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 }
@@ -31,6 +32,7 @@ rootProject.name = "MiniMOTD"
 sequenceOf(
   "common",
   "bukkit",
+  "minestom",
   "sponge8",
   "sponge7",
   "bungeecord",

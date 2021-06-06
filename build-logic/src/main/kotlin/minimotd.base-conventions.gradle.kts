@@ -14,7 +14,7 @@ version = (version as String)
 
 indra {
   javaVersions {
-    target(8)
+    target(11)
   }
   github(Constants.GITHUB_USER, Constants.GITHUB_REPO)
   mitLicense()

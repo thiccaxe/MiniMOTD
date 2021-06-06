@@ -1,0 +1,5 @@
+{
+  "entrypoint": "xyz.jpenilla.minimotd.minestom.MiniMOTDExtension",
+  "name": "MiniMOTD",
+  "version": "${project.version}"
+}
